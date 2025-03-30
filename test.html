@@ -9,7 +9,7 @@
             font-family: 'Arial', sans-serif;
             text-align: center;
             background-image: url('https://wallpapercave.com/w/wp13142225.jpg'); /* Background anime yang valid */
-            background-size: 75% auto; /* Memperbesar background */
+            background-size: cover; /* Menyesuaikan background agar responsif */
             background-position: top;
             background-attachment: fixed;
             color: white;
@@ -20,9 +20,10 @@
             margin-top: 30px;
             background: rgba(0, 0, 0, 0.5);
             padding: 15px;
-            border-radius: 0px;
+            border-radius: 10px;
             display: block;
-            width: 25%; /* Perkecil ukuran container */
+            width: 80%; /* Menyesuaikan agar responsif di perangkat mobile */
+            max-width: 400px; /* Membatasi ukuran maksimum pada layar besar */
             margin-left: auto;
             margin-right: auto;
         }
@@ -31,7 +32,8 @@
             font-weight: bold;
         }
         .anime-image {
-            width: 300px;
+            width: 100%; /* Gambar akan menyesuaikan dengan lebar container */
+            max-width: 300px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
         }
