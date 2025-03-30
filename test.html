@@ -9,7 +9,7 @@
             font-family: 'Arial', sans-serif;
             text-align: center;
             background-image: url('https://wallpapercave.com/w/wp13142225.jpg'); /* Background anime yang valid */
-            background-size: cover;
+            background-size: 75% auto; /* Memperbesar background */
             background-position: top;
             background-attachment: fixed;
             color: white;
@@ -17,14 +17,17 @@
             padding: 0;
         }
         .container {
-            margin-top: 50px;
+            margin-top: 30px;
             background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
-            display: inline-block;
+            padding: 15px;
+            border-radius: 0px;
+            display: block;
+            width: 25%; /* Perkecil ukuran container */
+            margin-left: auto;
+            margin-right: auto;
         }
         .greeting {
-            font-size: 24px;
+            font-size: 18px;
             font-weight: bold;
         }
         .anime-image {
@@ -34,24 +37,18 @@
         }
         .footer {
             margin-top: 20px;
-            font-size: 18px;
-        }
-        .content {
-            height: 150vh; /* Menambah tinggi konten agar bisa discroll */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <div class="container">
-            <h1 class="greeting">Selamat Hari Raya Idul Fitri 1445 H</h1>
-            <p class="greeting">Mohon maaf lahir dan batin</p>
-            <p class="footer">Dari: Fajar Putra</p>
-        </div>
+    <div class="container">
+        <h1 class="greeting">— Souten no Fioré 麗</h1>
+    </div>
+    <div class="container">
+        <h1 class="greeting">Selamat Hari Raya Idul Fitri 1445 H</h1>
+        <p class="greeting">Mohon maaf lahir dan batin</p>
+        <p class="footer">Dari: Fajar Putra</p>
     </div>
 </body>
 </html>
